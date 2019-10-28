@@ -14,7 +14,7 @@ var levenshtein = {
      * @param {*} rawWord1 
      * @param {*} rawWord2
      */
-    compute(rawWord1, rawWord2) {
+    compute: function(rawWord1, rawWord2) {
         const word1 = stringifyInput(rawWord1, 'rawWord1');
         const word2 = stringifyInput(rawWord2, 'rawWord2');
 
@@ -34,7 +34,7 @@ var levenshtein = {
      * @param {*} rawWord1 
      * @param {*} rawWord2
      */
-    computeWithoutCheck(rawWord1, rawWord2) {
+    computeWithoutCheck: function(rawWord1, rawWord2) {
         return fastLevenshtein(rawWord1, rawWord2);
     }
 };
