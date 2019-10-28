@@ -1,6 +1,6 @@
 {
   "name": "fast-levenshtein-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Implementation of the Levenshtein algorithm used to calculate distince between strings.",
   "main": "./src/levenshtein.js",
   "types": "./src/levenshtein.d.ts",
